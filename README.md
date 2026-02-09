@@ -1,48 +1,44 @@
-# Diwali Sales Data Analysis
+# Sales Data Analysis Portfolio
 
-## Project Overview
-This project analyzes a dataset of Diwali sales to identify customer purchasing behaviors and trends. The goal is to provide insights that can help improve customer experience and increase revenue by understanding which demographics (age, gender, location, occupation) are most profitable.
+## Introduction
+Welcome to my data analysis portfolio! This repository documents my journey in analyzing real-world sales data to uncover actionable business insights. It contains two distinct projects where I utilize different tools—**Python** for programmatic analysis and **Excel** for dashboarding—to solve business problems.
 
-## Technologies Used
-* **Python**
-* **Pandas** (Data manipulation and cleaning)
-* **NumPy** (Numerical operations)
-* **Matplotlib** (Data visualization)
-* **Seaborn** (Advanced data visualization)
+---
 
-## Dataset
-The analysis is performed on the `Diwali Sales Data.csv` file.
-* **Input features include:** User ID, Customer Name, Product ID, Gender, Age Group, Marital Status, State, Zone, Occupation, Product Category, Orders, and Amount.
+## Project 1: Diwali Sales Data Analysis
+**Tools:** Python (Pandas, NumPy, Matplotlib, Seaborn)  
+**Goal:** To improve customer experience and sales revenue by identifying the target customer demographic during the Diwali festival.
 
-## Workflow & Analysis Steps
+### Key Analysis & Insights
+* **Customer Profile:** The most profitable customer segment is **Married Women aged 26-35 years**.
+* **Top Locations:** The states of **Uttar Pradesh, Maharashtra, and Karnataka** account for the highest sales volume.
+* **Occupation:** Professionals in **IT, Healthcare, and Aviation** have the highest purchasing power.
+* **Product Preferences:** High demand for **Food, Clothing, and Electronics** categories.
 
-### 1. Data Cleaning
-* **Loading Data:** Imported data using Pandas with `unicode_escape` encoding to handle special characters.
-* **Cleaning:** * Removed unrelated/blank columns (`Status`, `unnamed1`).
-    * Dropped rows with missing values (`NaN`).
-    * Changed the data type of the `Amount` column to integer.
-* **Renaming:** Renamed the `Marital_Status` column to `Shaadi` for better readability.
+### Files
+* [View Jupyter Notebook](./Diwali_Sales_Analysis/Diwali_Sales_Analysis.ipynb)
+* [View Dataset](./Diwali_Sales_Analysis/Diwali%20Sales%20Data.csv)
 
-### 2. Exploratory Data Analysis (EDA)
-The project visualizes data to answer the following questions:
-* **Gender:** Who buys more? (Females vs. Males)
-* **Age:** Which age group contributes the most to sales?
-* **State:** Which states have the highest number of orders and total sales amount?
-* **Marital Status:** How does marital status affect purchasing habits?
-* **Occupation:** Which purchasing power is higher based on job sector?
-* **Product Category:** Which product categories are bestsellers?
+---
 
-## Key Insights / Conclusion
-Based on the analysis, the target customer profile for high sales volume is:
-* **Demographic:** Married women in the age group of **26-35 years**.
-* **Location:** Residents of **Uttar Pradesh, Maharashtra, and Karnataka**.
-* **Occupation:** Professionals working in **IT, Healthcare, and Aviation**.
-* **Interests:** They primarily purchase products from the **Food, Clothing, and Electronics** categories.
+## Project 2: Vrinda Store Annual Report (2022)
+**Tools:** Microsoft Excel (Pivot Tables, Charts, Data Cleaning)  
+**Goal:** To create an annual sales dashboard that tracks monthly performance, order fulfillment, and regional sales distribution.
 
-## How to Run
-1.  Ensure you have the required libraries installed:
-    ```bash
-    pip install pandas numpy matplotlib seaborn
-    ```
-2.  Place `Diwali Sales Data.csv` in the same directory as the notebook.
-3.  Run the `Diwali_Sales_Analysis.ipynb` file in Jupyter Notebook or VS Code.
+### Key Analysis & Insights
+* **Seasonality:** Sales peaked in **March**, suggesting a strong pre-summer demand, while remaining stable for the rest of the year.
+* **Gender Analysis:** **Women** contribute to ~65% of total sales, significantly outbuying men.
+* **Order Fulfillment:** 92% of orders were successfully delivered, with a low return rate, indicating a healthy supply chain.
+* **Sales Channels:** The top-performing platforms for the store are **Amazon, Myntra, and Flipkart**.
+
+### Files
+* [View Excel Analysis](./Vrinda_Store_Analysis/Vrinda%20Store%20Data%20Analysis.xlsx)
+
+---
+
+## Technical Skills Demonstrated
+* **Data Cleaning:** Handling null values, fixing data types, and removing outliers.
+* **Exploratory Data Analysis (EDA):** Performing univariate and bivariate analysis to find trends.
+* **Data Visualization:** Creating meaningful charts (Bar, Pie, Line) to communicate findings to stakeholders.
+* **Tool Proficiency:** Demonstrated ability to switch between **Python** (for large-scale processing) and **Excel** (for quick reporting).
+
