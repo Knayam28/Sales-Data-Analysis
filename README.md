@@ -15,13 +15,11 @@ Welcome to my data analysis portfolio! This repository documents my journey in a
 * **Occupation:** Professionals in **IT, Healthcare, and Aviation** have the highest purchasing power.
 * **Product Preferences:** High demand for **Food, Clothing, and Electronics** categories.
 
-### Files
-* [View Jupyter Notebook](./Diwali_Sales_Analysis/Diwali_Sales_Analysis.ipynb)
-* [View Dataset](./Diwali_Sales_Analysis/Diwali%20Sales%20Data.csv)
+
 
 ---
 
-## Project 2: Vrinda Store Annual Report (2022)
+## Project 2: Store Annual Report
 **Tools:** Microsoft Excel (Pivot Tables, Charts, Data Cleaning)  
 **Goal:** To create an annual sales dashboard that tracks monthly performance, order fulfillment, and regional sales distribution.
 
@@ -31,8 +29,7 @@ Welcome to my data analysis portfolio! This repository documents my journey in a
 * **Order Fulfillment:** 92% of orders were successfully delivered, with a low return rate, indicating a healthy supply chain.
 * **Sales Channels:** The top-performing platforms for the store are **Amazon, Myntra, and Flipkart**.
 
-### Files
-* [View Excel Analysis](./Vrinda_Store_Analysis/Vrinda%20Store%20Data%20Analysis.xlsx)
+
 
 ---
 
